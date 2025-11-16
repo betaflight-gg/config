@@ -26,6 +26,8 @@
 #define BOARD_NAME           GREATMOUNTAINF435
 #define MANUFACTURER_ID      GMRC
 #define ANTC_LOG
+#define USE_CONFIG_LOGGER
+#define USE_DEBUG_GPIO
 
 #define USE_ACC
 #define USE_GYRO
