@@ -60,6 +60,16 @@
 #define PINIO1_PIN PC4
 #define PINIO2_PIN PB2
 
+/*
+ * Board power-control defaults:
+ * PC4 / PINIO1 starts low; PB2 / PINIO2 starts high.
+ * These values correspond to: pinio_config = 1,129,1,1.
+ */
+#define PINIO1_CONFIG 1
+#define PINIO2_CONFIG 129
+#define PINIO3_CONFIG 1
+#define PINIO4_CONFIG 1
+
 /* Motors */
 #define MOTOR1_PIN PA15
 #define MOTOR2_PIN PA10
