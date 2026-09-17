@@ -39,6 +39,10 @@
 #define USE_FLASH
 #define USE_FLASH_M25P16
 #define USE_MAX7456
+#define USE_GPS
+#define USE_MAG
+#define USE_ALTITUDE_HOLD
+#define USE_POSITION_HOLD
 
 #define MOTOR1_PIN PB0
 #define MOTOR2_PIN PB1
