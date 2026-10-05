@@ -80,14 +80,15 @@
 #define CAMERA_CONTROL_PIN PB3
 #define ADC_VBAT_PIN PC2
 #define ADC_CURR_PIN PC1
+// 实际连接蜂鸣器，通过 USER 模式触发，和舵机 1（发射）在同一个通道。
 #define PINIO1_PIN PB11
-#define PINIO2_PIN PC15
 #define FLASH_CS_PIN PA15
 #define MAX7456_SPI_CS_PIN PB12
 #define GYRO_1_EXTI_PIN PC4
 #define GYRO_1_CS_PIN PA4
 #define USB_DETECT_PIN PB2
 
+// PA8 实际为舵机 2，PB10 实际为舵机 1（发射）。
 #define TIMER_PIN_MAPPING \
     TIMER_PIN_MAP( 0, PB0 , 2,  0) \
     TIMER_PIN_MAP( 1, PB1 , 2,  0) \
@@ -114,6 +115,5 @@
 #define DEFAULT_CURRENT_METER_SCALE 200
 #define MAX7456_SPI_INSTANCE SPI2
 #define PINIO1_BOX 40
-#define PINIO2_BOX 41
 #define FLASH_SPI_INSTANCE SPI3
 #define GYRO_1_SPI_INSTANCE SPI1
